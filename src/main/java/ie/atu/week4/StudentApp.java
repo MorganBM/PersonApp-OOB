@@ -2,7 +2,6 @@ package ie.atu.week4;
 
 public class StudentApp {
     public static void main(String[] args){
-        int student[]
 
         System.out.println("Please enter your name, email and course");
 
