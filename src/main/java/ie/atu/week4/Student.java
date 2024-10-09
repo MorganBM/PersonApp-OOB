@@ -1,26 +1,18 @@
 package ie.atu.week4;
 
-public class Person {
+public class Student {
     private String name;
     private String email;
     private String course;
 
-   public Person(){
-       this.name = "";
-       this.email = "";
-       this.course = "";
-   }
+    public Student(){
+        this.name = "";
 
-    public Person(String name) {
-        this.name = name;
+    }
+    public Student(String name, String email, String course) {
+        this.name = "";
         this.email = "";
         this.course = "";
-    }
-
-    public Person(String name, String email, String course) {
-        this.name = name;
-        this.email = email;
-        this.course = course;
     }
 
     //providing access methods below
@@ -51,11 +43,13 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person details here" +
+        return "Student details here " +
                 "name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", course='" + course + '\'' +
                 '}';
     }
 }
+
+
 

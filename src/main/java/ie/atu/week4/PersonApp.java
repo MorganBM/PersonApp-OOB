@@ -2,20 +2,20 @@ package ie.atu.week4;
 
 public class PersonApp {
     public static void main(String[] args){
-        System.out.println("please enter your name");
+        System.out.println("Please enter your name");
 
-        Person firstPerson = new Person();
-        firstPerson.setName("Morgan");
-        firstPerson.setEmail("morgan@atu.ie");
-        firstPerson.setCourse("Electronics");
-        System.out.println("Details of the first person is " + firstPerson.toString());
+        Student firstStudent = new Student();
+        firstStudent.setName("Morgan");
+        firstStudent.setEmail("morgan@atu.ie");
+        firstStudent.setCourse("Electronics");
+        System.out.println("" + firstStudent.toString());
 
         //Second student
 
-        Person secondPerson = new Person("Sean");
+        Student secondPerson = new Student();
 
         //Third student
 
-        Person thirdPerson= new Person("Mary", "mary@atu.ie", "Maths");
+        Student thirdPerson= new Student();
     }
 }
