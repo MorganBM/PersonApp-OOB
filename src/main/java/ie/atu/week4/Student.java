@@ -7,12 +7,20 @@ public class Student {
 
     public Student(){
         this.name = "";
+        this.email = "";
+        this.course= "";
 
     }
-    public Student(String name, String email, String course) {
-        this.name = "";
+
+    public Student(String name) {
+        this.name = name;
         this.email = "";
         this.course = "";
+    }
+    public Student(String name, String email, String course) {
+        this.name = name;
+        this.email = email;
+        this.course = course;
     }
 
     //providing access methods below

@@ -1,8 +1,10 @@
 package ie.atu.week4;
 
-public class PersonApp {
+public class StudentApp {
     public static void main(String[] args){
-        System.out.println("Please enter your name");
+        int student[]
+
+        System.out.println("Please enter your name, email and course");
 
         Student firstStudent = new Student();
         firstStudent.setName("Morgan");
@@ -12,6 +14,10 @@ public class PersonApp {
 
         //Second student
 
+        for(int x=0; x<10; x++) {
+            System.out.println("" + firstStudent.toString());
+        }
+
         Student secondPerson = new Student();
 
         //Third student
@@ -19,3 +25,4 @@ public class PersonApp {
         Student thirdPerson= new Student();
     }
 }
+
