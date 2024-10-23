@@ -11,12 +11,15 @@ public class Student {
         this.course= "";
 
     }
-
+//grab value of name
     public Student(String name) {
         this.name = name;
         this.email = "";
         this.course = "";
     }
+
+    //grabs value of name, email and course
+    //this all means that
     public Student(String name, String email, String course) {
         this.name = name;
         this.email = email;
@@ -27,24 +30,12 @@ public class Student {
 
     //providing access methods below
 
-    public String getName() {
-        return name;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getCourse() {
-        return course;
     }
 
     public void setCourse(String course) {
@@ -53,10 +44,10 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student details here " +
-                "name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", course='" + course + '\'' +
+        return "Student details: " +
+                "Name='" + name + '\'' +
+                ", Email='" + email + '\'' +
+                ", Course='" + course + '\'' +
                 '}';
     }
 }
